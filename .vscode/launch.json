@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BloodDonateApiApplication<BloodDonate_api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.donate_api.BloodDonateApiApplication",
+            "projectName": "BloodDonate_api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BloodDonateApiApplication<blood_donation>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.donate_api.BloodDonateApiApplication",
+            "projectName": "blood_donation",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

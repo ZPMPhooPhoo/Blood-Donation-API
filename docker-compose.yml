@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  blood_donation_app:
+    build: 
+      context: .
+      dockerfile: dockerfile  # Replace with the actual name of your Dockerfile
+    image: blood_donation_app:latest
+    ports:
+      - "8004:8080"
+    environment:
+      # Add any necessary environment variables here, if applicable
+      - KEY1=value1
+      - KEY2=value2
+      
+
